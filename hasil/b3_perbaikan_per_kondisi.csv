@@ -1,0 +1,9 @@
+kondisi,citra,kelas,perbaikan,rerata_sebelum,rerata_sesudah,KB_sebelum,KB_sesudah
+gelap,teh_042,berat,"gamma 0,6",126.6,163.5,5.42,4.6
+gelap,teh_022,ringan,"gamma 0,6",117.4,156.7,3.9,3.3
+terang,teh_043,berat,"gamma 1,6",213.0,192.1,2.73,2.91
+terang,teh_023,ringan,"gamma 1,6",215.0,195.3,1.99,2.1
+kontras_rendah,teh_044,berat,regang 2-98,158.5,174.3,2.49,2.73
+kontras_rendah,teh_024,ringan,regang 2-98,153.7,163.7,1.81,1.94
+bayangan,teh_045,berat,CLAHE 1 / 4x4,127.8,127.8,1.61,2.45
+bayangan,teh_025,ringan,CLAHE 1 / 4x4,124.0,125.0,0.39,1.05

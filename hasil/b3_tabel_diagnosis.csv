@@ -1,0 +1,11 @@
+citra,kondisi,rerata,simpangan_baku,min,maks,persen_gelap,persen_terang,diagnosis,usulan_perbaikan
+teh_041,normal,183.4,44.2,64,237,0.0,41.0,cukup baik,tidak perlu perbaikan
+teh_042,gelap,126.6,45.4,15,178,15.2,0.0,terlalu gelap,"gamma < 1 (mis. 0,6)"
+teh_043,terang,213.0,26.7,132,255,0.0,74.9,terlalu terang,"gamma > 1 (mis. 1,6)"
+teh_044,kontras_rendah,158.5,13.2,113,186,0.0,0.0,kontras rendah,peregangan kontras (persentil 2-98)
+teh_045,bayangan,127.8,57.9,28,248,1.8,15.0,cahaya tidak merata (bayangan),"CLAHE lokal (clip 1, tile 4)"
+teh_021,normal,168.7,42.3,64,228,0.0,4.2,cukup baik,tidak perlu perbaikan
+teh_022,gelap,117.4,39.5,23,166,15.6,0.0,terlalu gelap,"gamma < 1 (mis. 0,6)"
+teh_023,terang,215.0,28.4,142,251,0.0,73.4,terlalu terang,"gamma > 1 (mis. 1,6)"
+teh_024,kontras_rendah,153.7,13.8,103,191,0.0,0.0,kontras rendah,peregangan kontras (persentil 2-98)
+teh_025,bayangan,124.0,55.6,28,239,1.6,10.2,cahaya tidak merata (bayangan),"CLAHE lokal (clip 1, tile 4)"

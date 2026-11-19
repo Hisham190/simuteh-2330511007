@@ -1,0 +1,10 @@
+metode,parameter,KB,simpangan_baku
+asli,-,1.61,57.9
+negatif,255 - r,1.61,57.9
+cerah+50,+50,1.61,54.6
+kontras,"1,5 r - 40",1.61,78.8
+regang,persentil 2-98,1.66,82.1
+gamma0.5,"gamma 0,5",1.43,40.9
+gamma1.8,"gamma 1,8",1.94,64.1
+ekualisasi,global,1.22,73.4
+CLAHE,"clip 2, tile 8",2.09,48.8
