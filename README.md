@@ -1,21 +1,32 @@
-# SIMUTEH - Evaluasi Praktikum P1-P4 Computer Vision
+# SIMUTEH - Praktikum P5-P6 Computer Vision
 Nama: Hisham | NIM: 2330511007 | Kelas: 7A | SEED: 1007
 
 ## Cara menjalankan
 1. `pip install -r requirements.txt`
 2. Dari folder utama: `python src/buat_dataset_sintetis.py` (SEED = 1007)
-3. Jalankan notebook B1 sampai B5 di folder `notebook/` berurutan dengan Restart & Run All.
+3. Jalankan notebook berurutan dengan Restart & Run All: B1 sampai B5, `P5_tepi.ipynb`, lalu `P6_morfologi.ipynb`.
 
-## Rangkaian praproses final (`hasil/param_praproses.json`)
-ubah ukuran 640 px -> gamma otomatis (terang 1,6; gelap dibiarkan) -> CLAHE kanal V (clip 1, tile 4, hanya bila cahaya tidak rata) -> median 3 x 3; tanpa penajaman.
+## Memakai analisis bercak
+```python
+import sys; sys.path.append("src")
+from praproses import praproses
+import bercak
+hasil = bercak.analisis_daun(praproses(citra_bgr, param_praproses))
+hasil["jumlah_bercak"], hasil["persen_bercak"], hasil["kelas"]
+```
+Parameter disimpan di `hasil/param_bercak.json`; praproses di `hasil/param_praproses.json`.
 
-## Ringkasan KB kanal R (rerata 40 citra berbercak)
+## Alur
+praproses -> mask daun awal (Otsu kanal S) -> bercak awal (median + k x MAD, kanal R) -> opening dan closing (SE elips 5) -> komponen terhubung (konektivitas 8) -> saring luas, kebulatan, rasio aspek -> persen bercak dan kelas.
+
+## Ringkasan evaluasi 60 citra (`hasil/p6_evaluasi_bercak.csv`)
 ```
-                KB_sebelum  KB_sesudah  perubahan_%
-kondisi                                            
-normal               10.18       15.40         51.3
-gelap                 9.11       16.09         76.5
-terang                7.59       12.75         67.9
-kontras_rendah        3.90        8.02        105.9
-bayangan              4.14        6.91         66.8
+                                          Nilai
+Galat absolut rerata persen bercak        0.329
+Korelasi persen prediksi dan acuan        0.973
+Akurasi kelas                             0.933
+Jumlah daun sehat yang dinilai berbercak      1
+Jumlah daun berbercak yang dinilai sehat      2
+Kondisi cahaya dengan akurasi terendah    gelap
 ```
+Mask daun dan bercak awal bersifat sementara; diganti metode segmentasi yang lebih kuat pada P7.

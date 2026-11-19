@@ -1,0 +1,5 @@
+nama,kondisi,IoU daun awal,komponen b0,komponen sesudah bersih,jumlah hasil,jumlah acuan,luas bercak hasil px,luas bercak acuan px,luas daun awal px,luas daun acuan px
+teh_017.png,gelap,0.999,98,18,3,0,91,0,68747,68829
+teh_025.png,bayangan,0.996,77,1,1,1,55,113,74523,74810
+teh_027.png,gelap,0.999,197,1,1,1,72,81,89646,89624
+teh_049.png,kontras_rendah,0.948,1370,6,6,6,1097,1648,73175,72577

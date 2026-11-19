@@ -1,0 +1,6 @@
+kondisi,F1_gradien_morfologi,F1_Canny
+normal,0.992,0.917
+gelap,0.991,0.87
+terang,0.991,0.934
+kontras_rendah,0.514,0.0
+bayangan,0.917,0.877

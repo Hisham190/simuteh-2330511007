@@ -1,0 +1,5 @@
+aturan,berat,ringan,sehat,sehat_dgn_bercak_palsu
+tanpa saring,2.4,2.9,2.25,5
+luas >= 20,1.7,1.8,1.4,4
+luas + kebulatan,1.3,1.05,0.8,4
+luas + kebulatan + rasio,1.0,0.5,0.4,4
