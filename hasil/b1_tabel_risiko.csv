@@ -1,0 +1,7 @@
+Aspek,Risiko pada SIMUTEH,Mitigasi awal
+Privasi citra,Foto tidak sengaja memuat wajah petani; metadata EXIF membawa koordinat GPS kebun,Foto hanya bidang nampan; hapus EXIF sebelum disimpan; minta izin pemilik kebun
+Bias dan keadilan,"Data hanya dari satu kebun, satu varietas, atau cahaya normal sehingga sistem keliru pada kondisi lain",Kumpulkan data lintas kebun dan kondisi cahaya; laporkan akurasi per kondisi
+Transparansi,Petugas tidak tahu mengapa daun dinilai Berat,Tampilkan mask bercak dan persentasenya; keputusan akhir tetap oleh petugas
+Keamanan data,Foto dan label bocor atau diunggah ke repository publik,Repository privat; jangan unggah data lapangan; batasi akses kolaborator
+Dampak sosial,Daun sehat dinilai bercak berat merugikan petani (harga turun); sebaliknya merugikan pembeli,Sistem hanya alat bantu; sediakan jalur keberatan dan pemeriksaan ulang
+Keterlacakan,Hasil tidak dapat diulang karena parameter dan versi tidak tercatat,"Simpan parameter JSON, SEED, versi pustaka, dan tag Git"
