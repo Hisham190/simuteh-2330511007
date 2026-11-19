@@ -1,0 +1,8 @@
+Aspek,Ketentuan
+Jarak dan sudut,"Tegak lurus dari atas, jarak <= 23 cm agar bercak 5 mm tetap >= 10 piksel pada lebar kerja 640 px"
+Resolusi minimum,"Foto asli >= 12 MP (4000 x 3000), diperkecil ke lebar 640 px sebelum diproses"
+Alas dan acuan ukuran,Nampan polos berwarna pucat; letakkan penggaris atau koin sebagai acuan skala
+Kondisi cahaya,"Wakili normal, gelap, terang, kontras rendah (berkabut), dan bayangan sebagian"
+Jumlah citra,"Minimal 20 citra per kelas (Sehat, Ringan, Berat), tersebar merata pada kondisi cahaya"
+Penamaan berkas,teh_<nomor 3 digit>.png; catat kondisi cahaya dan tanggal pada label.csv
+Izin dan privasi,Izin tertulis pemilik kebun; hapus metadata EXIF; foto tidak boleh memuat wajah
