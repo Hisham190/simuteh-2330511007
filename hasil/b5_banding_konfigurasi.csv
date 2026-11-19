@@ -1,0 +1,9 @@
+,normal,gelap,terang,kontras_rendah,bayangan,rerata
+(sebelum praproses),10.18,9.11,7.59,3.9,4.14,6.98
+A contoh petunjuk (CLAHE 2/8 selalu),11.9,15.15,6.17,4.85,6.98,9.01
+B hanya median 3,15.4,16.09,11.4,8.02,5.02,11.18
+"C gamma gelap 0,6 + terang 1,6",15.4,10.25,12.75,8.02,5.02,10.29
+"D gamma hanya terang (1,6)",15.4,16.09,12.75,8.02,5.02,11.45
+E D + CLAHE 1/4 otomatis (FINAL),15.4,16.09,12.75,8.02,6.91,11.83
+F CLAHE 1/4 selalu,14.34,16.21,11.17,7.34,6.91,11.19
+G final dengan median 5,16.55,18.31,13.47,10.13,6.95,13.08
