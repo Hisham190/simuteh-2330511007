@@ -1,0 +1,11 @@
+kanal,kondisi,gradien_tepi_daun,ambang_bawah_otomatis,ambang_atas_otomatis
+Gray,normal,159.2,127.7,253.5
+Gray,gelap,158.9,96.8,192.2
+Gray,terang,131.5,139.6,277.1
+Gray,kontras_rendah,51.2,107.8,214.0
+Gray,bayangan,134.9,77.4,153.6
+R,normal,250.1,134.5,267.0
+R,gelap,231.2,103.5,205.5
+R,terang,223.8,144.8,287.4
+R,kontras_rendah,81.8,110.5,219.3
+R,bayangan,185.2,81.8,162.4
